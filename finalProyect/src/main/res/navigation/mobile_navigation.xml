@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="org.ieselcaminas.proyectofinal.ui.appFragments.Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_diary"
+        android:name="org.ieselcaminas.proyectofinal.ui.appFragments.Diary"
+        tools:layout="@layout/fragment_diary" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_statics"
+        android:name="org.ieselcaminas.proyectofinal.ui.appFragments.Statics"
+        tools:layout="@layout/fragment_statics" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="org.ieselcaminas.proyectofinal.ui.appFragments.Account"
+        tools:layout="@layout/fragment_account" />
+</navigation>
